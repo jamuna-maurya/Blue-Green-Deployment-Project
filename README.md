@@ -51,7 +51,30 @@ flowchart TB
 
 ### After Deployment
 
-![After Deployment](screenshots/after-deployment.png)
+```mermaid
+flowchart LR
+
+    U[👨‍💻 Users]
+
+    U --> LB
+
+    LB["🟡 Nginx Load Balancer"]
+
+    LB --> GREEN
+
+    BLUE["🔵 Blue Environment
+    Version 1
+    Standby"]
+
+    GREEN["🟢 Green Environment
+    Version 2
+    Live Production"]
+
+    style BLUE fill:#AED6F1,color:#000,stroke:#1B4F72,stroke-width:2px
+    style GREEN fill:#28B463,color:#fff,stroke:#145A32,stroke-width:4px
+    style LB fill:#F4D03F,color:#000,stroke:#B7950B,stroke-width:3px
+    style U fill:#F5B7B1,color:#000,stroke:#922B21,stroke-width:2px
+```
 
 ---
 
