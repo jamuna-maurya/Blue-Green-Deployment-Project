@@ -341,15 +341,7 @@ docker exec nginx-lb nginx -s reload
 
 ### Nginx Load Balancer
 
-Add Screenshot Here
-
-### Traffic Switching
-
-Add Screenshot Here
-
-### Rollback Demonstration
-
-Add Screenshot Here
+<img width="1906" height="1150" alt="image" src="https://github.com/user-attachments/assets/e990ab57-dff9-432c-ab62-a38f7ece2dde" />
 
 ---
 
