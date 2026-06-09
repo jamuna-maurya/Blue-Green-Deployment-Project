@@ -319,7 +319,10 @@ docker logs nginx-lb
 ```bash
 docker exec nginx-lb nginx -s reload
 ```
+###Verify Nginx Configuration
 
+```bash
+docker exec nginx-lb nginx -T
 ---
 
 ## Screenshots
