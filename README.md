@@ -326,15 +326,18 @@ docker exec nginx-lb nginx -s reload
 
 ### Running Containers
 
-Add Screenshot Here
+<img width="2326" height="1150" alt="image" src="https://github.com/user-attachments/assets/e08d36ef-358d-485c-b51a-934da3638bda" />
+
 
 ### Blue Environment
 
-Add Screenshot Here
+<img width="2596" height="1046" alt="image" src="https://github.com/user-attachments/assets/900a2429-1e6c-4aa5-8f6b-86d154ca751d" />
+
 
 ### Green Environment
 
-Add Screenshot Here
+<img width="2178" height="744" alt="image" src="https://github.com/user-attachments/assets/e6777b91-68c6-4deb-b570-6cebc5af064d" />
+
 
 ### Nginx Load Balancer
 
