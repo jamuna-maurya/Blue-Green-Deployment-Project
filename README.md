@@ -76,32 +76,6 @@ flowchart LR
     style U fill:#F5B7B1,color:#000,stroke:#922B21,stroke-width:2px
 ```
 
----
-
-## Project Architecture
-
-```text
-                   Users
-                     │
-                     ▼
-            ┌─────────────────┐
-            │  Nginx LB       │
-            │   Port 80       │
-            └────────┬────────┘
-                     │
-        ┌────────────┴────────────┐
-        │                         │
-        ▼                         ▼
-
-   Blue Environment         Green Environment
-   Version 1                Version 2
-   Port 3001                Port 3002
-
-        Docker                  Docker
-```
-
----
-
 ## Technology Stack
 
 * Docker
